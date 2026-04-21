@@ -4,7 +4,7 @@ from datetime import datetime, timedelta, timezone
 from typing import Optional, Dict, Any
 from jose import jwt
 
-# ✅ Usa questi stessi valori anche nel router /auth/me quando decodifichi
+
 SECRET_KEY = "SUPER_SECRET_KEY_CAMBIARE_IN_PRODUZIONE"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24
